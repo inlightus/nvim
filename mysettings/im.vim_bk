@@ -1,0 +1,10 @@
+" fcitx
+
+" 「日本語入力固定モード」の動作設定
+let IM_CtrlMode=6
+
+" IM制御がToggleしか行えない時「日本語入力固定モード」を切り替える
+let IM_JpFixModeAutoToggle = 1
+
+" <ESC>押下後のIM切替開始までの反応が遅い場合はttimeoutlenを設定する。
+set timeout timeoutlen=3000 ttimeoutlen=100
