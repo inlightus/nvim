@@ -3,7 +3,7 @@ nnoremap <Leader>w :w<CR>
 
 nnoremap <CR> mzo<ESC>`z
 nnoremap <CR><CR> mzO<ESC>`z
-inoremap <C-]> <Esc>A<Space>
+inoremap <C-]> <Esc>A
 
 "moving among the splitted windows"
 nnoremap <C-h> <C-w>h
