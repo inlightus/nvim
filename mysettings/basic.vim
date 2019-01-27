@@ -17,7 +17,7 @@ set expandtab
 set smarttab
 set shiftround
 set splitright
-set nowrap
+" set nowrap
 set termguicolors
 set lazyredraw
 set ttyfast

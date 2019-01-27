@@ -1,6 +1,9 @@
 let mapleader = "\<Space>"
 nnoremap <Leader>w :w<CR>
 
+nnoremap <CR> mzo<ESC>`z
+nnoremap <CR><CR> mzO<ESC>`z
+
 "moving among the splitted windows"
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
